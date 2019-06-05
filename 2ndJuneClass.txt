@@ -1,0 +1,12 @@
+1. Decision tree- When to decide if tree is overfitting or underfitting?
+2. Identify overfitting by entropy.
+3. how to calculate bias and variance?- need to check.. 
+4. why we are using log in entropy formula?- 
+5. How to decide when to use log and when to square in all formlaes which we use for any calculations of different models?
+6. If we have 100 columns in dataset, then what is ~ range to predict if model is underfit or overfit depending on number of columns used
+7. Model should be more stable model or more accurate?
+8. How to decide which is better model?
+9. What is ensemble term in random forest?
+10. Does decreasing of rows from dataset does not impact the accuracy of model? 
+11. What are the advantages of using Random forest model?
+12. What are the terms Pruning and unpruning means?
