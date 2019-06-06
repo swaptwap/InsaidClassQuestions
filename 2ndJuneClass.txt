@@ -1,12 +1,41 @@
 1. Decision tree- When to decide if tree is overfitting or underfitting?
+level < 2- under fitting
+level > 4 overfitting.
+
 2. Identify overfitting by entropy.
-3. how to calculate bias and variance?- need to check.. 
+if we draw the tree till entropy=0 then it is overfitting
+
+3. how to calculate bias and variance?
+bias: bias is how much mean prediction differs from various actual values
+variance: dispersion of prediction from actual
+
 4. why we are using log in entropy formula?- 
+to bring range between 0-1 as log to the base 2. we are trying to add weight.
+
 5. How to decide when to use log and when to square in all formlaes which we use for any calculations of different models?
+if data is changing and distribution are changing much- go for square.
+if data is not changing much- we use log. its keeps data consistent. 
+
 6. If we have 100 columns in dataset, then what is ~ range to predict if model is underfit or overfit depending on number of columns used
+if 90 used in one root and 10 in other.. 10 one is underfit.. 90 is overfit..
+ideally it should be 60-40 etc,
+
 7. Model should be more stable model or more accurate?
+we should go for more stable model and not most accurate model.
+
 8. How to decide which is better model?
+try all possible values with gridsearch cv
+then compare the bias and variance and select the one with least bais and least variance
+
 9. What is ensemble term in random forest?
+Create n decision trees, select random nodes and then use decision trees.
+
 10. Does decreasing of rows from dataset does not impact the accuracy of model? 
+does decreasing of rows not impact the accuracy? or we dont know?- We dont knw is the answer
+
 11. What are the advantages of using Random forest model?
+- no overfitting
+- handles missing data
+- high accuracy.
+
 12. What are the terms Pruning and unpruning means?
